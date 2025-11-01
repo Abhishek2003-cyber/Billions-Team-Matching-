@@ -210,7 +210,7 @@
 </head>
 <body>
   <h1>
-  <img src="images/billion.png" width="60" height=" 60" style="vertical-align: middle;">
+  <img src="billion.png" width="60" height=" 60" style="vertical-align: middle;">
   Billions Team Image Guess Card Game
 </h1>
 
@@ -240,16 +240,16 @@
     const board = document.getElementById("game-board");
 
     const images = [
-      { name: "Billions", url: "images/billionss.jpg" },
-      { name: "founder", url: "images/evin.jpg" },
-      { name: "founder", url: "images/david.jpg" },
-      { name: "team head", url: "images/javi.jpg" },
-      { name: "head of colab", url: "images/Averno.jpg" },
-      { name: "pyronfi", url: "images/cabin.jpg" },
-      { name: "data algo", url: "images/sey.jpg" },
-      { name: "billions discord mod ", url: "images/salesman.jpg" },
-      { name: "billions product lead", url: "images/water.jpg" },
-      { name: "markiting team", url: "images/laura.jpg" }
+      { name: "Billions", url: "billionss.jpg" },
+      { name: "founder", url: "evin.jpg" },
+      { name: "founder", url: "david.jpg" },
+      { name: "team head", url: "javi.jpg" },
+      { name: "head of colab", url: "Averno.jpg" },
+      { name: "pyronfi", url: "cabin.jpg" },
+      { name: "data algo", url: "sey.jpg" },
+      { name: "billions discord mod ", url: "salesman.jpg" },
+      { name: "billions product lead", url: "water.jpg" },
+      { name: "markiting team", url: "laura.jpg" }
     ];
 
     let gameCards = [...images, ...images];
@@ -270,7 +270,7 @@
 
       const back = document.createElement("div");
       back.classList.add("card-back");
-      back.style.backgroundImage = 'url("images/billions.png")';
+      back.style.backgroundImage = 'url("billions.png")';
       back.style.backgroundSize = "80px 60px";
       back.style.backgroundPosition = "center";
       back.style.backgroundRepeat = "no-repeat";
@@ -361,3 +361,4 @@
   </script>
 </body>
 </html>
+
